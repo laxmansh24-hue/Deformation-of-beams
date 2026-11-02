@@ -1,9 +1,9 @@
 {
-    "loads" : [10,20,30,40],
-    "materials": [
-        {
-            "E":210e9,
-            "I": 0.0002
-            }
-        ]
+    "E" : 200e9,
+    "I" : 0.000008,
+    "spans" : [1,2,3],
+    "loads" : [500,1000,1500],
+    "o_center" : 0.3,
+    "beam_cases": ["ss_centre", "ss_point", "ss_UDL", "cl_point", "cl_UDL"]
+
 }
